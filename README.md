@@ -21,6 +21,7 @@ The following libraries are required to run the TZOOTZ EXR Node. Ensure these ar
 - Pillow
 - numpy
 
+![TZOOTZ Research Logo](images/LOGO%20copia%20VAVCIO2.png)
 Installation  
 To add the TZOOTZ EXR Node to your ComfyUI setup, follow these steps:
 
