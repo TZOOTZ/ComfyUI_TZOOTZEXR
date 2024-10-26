@@ -1,0 +1,158 @@
+{
+  "last_node_id": 20,
+  "last_link_id": 12,
+  "nodes": [
+    {
+      "id": 20,
+      "type": "SaveEXR",
+      "pos": [
+        1333,
+        -234
+      ],
+      "size": {
+        "0": 315,
+        "1": 178
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 12
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SaveEXR"
+      },
+      "widgets_values": [
+        "TZOOTZ_EXR",
+        false,
+        1,
+        1,
+        4,
+        "none"
+      ]
+    },
+    {
+      "id": 6,
+      "type": "LoadEXR",
+      "pos": [
+        405,
+        -296
+      ],
+      "size": {
+        "0": 315,
+        "1": 194
+      },
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "RGB",
+          "type": "IMAGE",
+          "links": [
+            3
+          ],
+          "slot_index": 0,
+          "shape": 3
+        },
+        {
+          "name": "alpha",
+          "type": "MASK",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "batch_size",
+          "type": "INT",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadEXR"
+      },
+      "widgets_values": [
+        "C:\\Users\\Filthy\\Desktop\\x\\b.exr",
+        false,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "type": "TZOOTZ_EXR",
+      "pos": [
+        794,
+        -475
+      ],
+      "size": {
+        "0": 447.7777099609375,
+        "1": 91.11109924316406
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            12
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "TZOOTZ_EXR"
+      },
+      "widgets_values": [
+        0.5
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    }
+  ],
+  "links": [
+    [
+      3,
+      6,
+      0,
+      3,
+      0,
+      "IMAGE"
+    ],
+    [
+      12,
+      3,
+      0,
+      20,
+      0,
+      "IMAGE"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.8390545288824023,
+      "offset": [
+        -319.6422812138464,
+        862.4309569457453
+      ]
+    }
+  },
+  "version": 0.4
+}
