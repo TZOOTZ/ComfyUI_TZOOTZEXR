@@ -1,6 +1,5 @@
 Welcome to the official TZOOTZ EXR Node repository, a tool designed to bring advanced EXR file handling into the ComfyUI environment. Developed by TZOOTZ Research, this node is perfect for artists and experimental projects requiring precise control over HDR workflows.
 
-Overview
 The ComfyUI_TZOOTZEXR node by TZOOTZ Research allows for EXR file loading and downscaling with high fidelity. With this node, users can maintain floating-point accuracy and preserve highlights during downscaling, ensuring that visual integrity remains uncompromised.
 
 Features
@@ -9,7 +8,6 @@ Features
 - **Custom Scaling Factor**: Set your preferred downscaling level to fit specific project requirements.
 - **Seamless Integration**: Fully compatible with ComfyUI workflows for an intuitive experience.
 
-Screenshot
 Below is a screenshot of the TZOOTZ EXR Node in action within ComfyUI:
 ![TZOOTZ EXR Node in ComfyUI](images/121.png)
 
