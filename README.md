@@ -1,7 +1,7 @@
 ComfyUI_TZOOTZEXR  
 ComfyUI EXR Node by TZOOTZ Research 2024®
 
-![TZOOTZ Research Logo](images/LOGO%20copia%20VACIO2.png)
+![TZOOTZ Research Logo](images/LOGO%20copia%20VAVCIO2.png)
 
 Welcome to the official TZOOTZ EXR Node repository, where innovation in digital artistry meets precision engineering. This project introduces TZOOTZ Research's revolutionary EXR integration into the ComfyUI environment, catering to artists, visionaries, and creators who require uncompromised quality in high dynamic range imaging.
 
