@@ -2,46 +2,32 @@ ComfyUI_TZOOTZEXR
 ComfyUI EXR Node by TZOOTZ Research 2024®
 
 Overview
-The ComfyUI_TZOOTZEXR node empowers ComfyUI with high-dynamic range (HDR) EXR file support, designed for digital artists and experimental projects. By enabling EXR file loading and precise downscaling, the node preserves highlights and floating-point accuracy in images, perfect for workflows where visual fidelity is essential.
+The ComfyUI_TZOOTZEXR node extends ComfyUI with HDR EXR file support, ideal for digital artists and experimental projects. This node enables loading EXR files and precision downscaling, preserving highlights and floating-point accuracy for visual fidelity.
 
 Features
-EXR File Loading: Import EXR files directly into ComfyUI, retaining full HDR data.
+EXR File Loading: Import EXR files with full HDR data.
 Floating-Point Precision: Downscale images without losing high-brightness details.
-Custom Scaling Factor: Set your desired downscale level for flexible resolution management.
-Seamless Integration: Operates within the ComfyUI node structure for easy workflow inclusion.
+Custom Scaling Factor: Set your desired downscale level.
+Seamless Integration: Fits within ComfyUI node workflows.
 Requirements
-This node requires a few essential libraries to handle EXR and image processing tasks. Install them from requirements.txt:
+Required libraries are listed in requirements.txt:
 
-plaintext
-Copy code
 OpenEXR
 Imath
 Pillow
 numpy
-These libraries ensure that the EXR handling and downscaling processes are fully functional.
-
 Installation
-Clone the repository to your ComfyUI custom nodes directory:
+Clone the repository to your ComfyUI custom nodes directory: git clone https://github.com/yourusername/ComfyUI_TZOOTZEXR.git
 
-bash
-Copy code
-git clone https://github.com/yourusername/ComfyUI_TZOOTZEXR.git
-Navigate to the ComfyUI directory:
+Navigate to the ComfyUI directory: cd C:\Users\Filthy\Desktop\IA LAB\ComfyUI_windows_portable
 
-bash
-Copy code
-cd C:\Users\Filthy\Desktop\IA LAB\ComfyUI_windows_portable
-Install dependencies:
+Install dependencies: pip install -r custom_nodes/ComfyUI_TZOOTZEXR/requirements.txt
 
-bash
-Copy code
-pip install -r custom_nodes/ComfyUI_TZOOTZEXR/requirements.txt
 Usage
-In ComfyUI, select the TZOOTZ_EXRNode to load and downscale EXR files.
-Set the scaling factor to achieve the desired resolution while maintaining HDR integrity.
-Review your EXR images in ComfyUI, applying additional processing as needed.
+In ComfyUI, select TZOOTZ_EXRNode to load and downscale EXR files. Set the scaling factor to achieve your desired resolution while preserving HDR details.
+
 About TZOOTZ Research 2024®
-TZOOTZ Research is committed to pushing the boundaries of digital and experimental art through innovative tools and visual research. This EXR node aligns with our mission to provide artists with precision-focused tools to express and realize creative ideas.
+TZOOTZ Research creates tools for digital art and experimental visuals. This EXR node aligns with our mission to provide artists with precision-focused tools for creative expression.
 
 License
 This project is licensed under the MIT License. See the LICENSE file for more information.
