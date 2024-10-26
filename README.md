@@ -1,6 +1,3 @@
-ComfyUI_TZOOTZEXR
-ComfyUI EXR Node by TZOOTZ Research 2024®
-
 Welcome to the official TZOOTZ EXR Node repository, a tool designed to bring advanced EXR file handling into the ComfyUI environment. Developed by TZOOTZ Research, this node is perfect for artists and experimental projects requiring precise control over HDR workflows.
 
 Overview
